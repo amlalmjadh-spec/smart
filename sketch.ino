@@ -35,6 +35,7 @@ void loop() {
   }
 
   if (numPeople >= 50) {
+    digitalWrite(redLed, HIGH);
     digitalWrite(buzzer, HIGH);
   } else {
     digitalWrite(buzzer, LOW);
@@ -43,7 +44,7 @@ void loop() {
   delay(300);
 
   numPeople++;
-  if (numPeople > 60) {
+  if (numPeople > 55) {
     numPeople = 0;
   }
 }
