@@ -27,10 +27,10 @@ void loop() {
   if (numPeople <= 30) {
     digitalWrite(greenLed, HIGH); 
   } 
-  else if (numPeople >= 31 && numPeople <= 40) {
+  else if (numPeople >= 31 && numPeople <= 45) {
     digitalWrite(yellowLed, HIGH); 
   } 
-  else if (numPeople >= 41 && numPeople <= 50) {
+  else if (numPeople >= 46 && numPeople <= 50) {
     digitalWrite(redLed, HIGH); 
   }
 
